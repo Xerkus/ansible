@@ -61,10 +61,10 @@ options:
               which git then automatically uses to override ssh arguments.
               An example value could be "-o StrictHostKeyChecking=no"
     key_file:
-        requird: false
+        required: false
         default: None
         version_added: "1.5"
-        description:
+        description:re
             - Uses the same wrapper method as ssh_opts to pass 
               "-i <key_file>" to the ssh arguments used by git
     reference:
